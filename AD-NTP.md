@@ -37,7 +37,12 @@ Quick snippets for time service management in an Active Directory forest.
 
 - Before moving Forest PDC FSMO test external NTP sync from new PDC target
 - Set NTP with GPO to cover FSMO moves and new server and DC builds (use WMI Filter to include or exclude PDC)
+- Special considerations for PDC on VM
+
+- Some VM and GPO hints below 
+
 - - https://theitbros.com/configuring-dc-for-sync-time-with-external-ntp-server/
 - - https://theitbros.com/time-configuration-for-virtualized-domain-controllers/
+- - https://social.technet.microsoft.com/wiki/contents/articles/8863.time-service-configuration-on-dc-with-pdc-emulator-fsmo-role.aspx#:~:text=1%20Make%20DC%20with%20PDC%20Emulator%20to%20follow,External%20Time%20service%20on%20DC%20with%20PDC%20emulator
 
 
